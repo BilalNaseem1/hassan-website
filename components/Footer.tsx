@@ -4,7 +4,10 @@ import { FaEnvelopeOpenText } from '@react-icons/all-files/fa/FaEnvelopeOpenText
 import { FaGithub } from '@react-icons/all-files/fa/FaGithub'
 import { FaLinkedin } from '@react-icons/all-files/fa/FaLinkedin'
 import { FaMastodon } from '@react-icons/all-files/fa/FaMastodon'
-import { FaTwitter } from '@react-icons/all-files/fa/FaTwitter'
+// import { FaTwitter } from '@react-icons/all-files/fa/FaTwitter'
+import { FaFile } from '@react-icons/all-files/fa/FaFile'
+import { FaPaperclip } from '@react-icons/all-files/fa/FaPaperclip'
+import { FaMedium } from '@react-icons/all-files/fa/FaMedium'
 import { FaYoutube } from '@react-icons/all-files/fa/FaYoutube'
 import { FaZhihu } from '@react-icons/all-files/fa/FaZhihu'
 import { IoMoonSharp } from '@react-icons/all-files/io5/IoMoonSharp'
@@ -55,12 +58,12 @@ export const FooterImpl: React.FC = () => {
         {config.twitter && (
           <a
             className={styles.twitter}
-            href={`https://twitter.com/${config.twitter}`}
-            title={`Twitter @${config.twitter}`}
+            href={`https://medium.com/@bilalnaseem`}
+            title={`Medium Bilal Naseem`}
             target='_blank'
             rel='noopener noreferrer'
           >
-            <FaTwitter />
+            <FaMedium />
           </a>
         )}
 
@@ -115,11 +118,11 @@ export const FooterImpl: React.FC = () => {
           <a
             className={styles.newsletter}
             href={`${config.newsletter}`}
-            title={`Newsletter ${config.author}`}
+            title={`Resume Bilal Naseem`}
             target='_blank'
             rel='noopener noreferrer'
           >
-            <FaEnvelopeOpenText />
+            <FaPaperclip />
           </a>
         )}
 

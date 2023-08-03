@@ -80,10 +80,10 @@
 }
 
 .twitter .actionBgPane {
-  background: #2795e9;
+  background: #a0a0a0;
 }
 .twitter:hover {
-  border-color: #2795e9;
+  border-color: #a0a0a0;
 }
 
 .linkedin .actionBgPane {
@@ -115,10 +115,10 @@
 }
 
 .newsletter .actionBgPane {
-  background: #777777;
+  background: #00ab6c;
 }
 .newsletter:hover {
-  border-color: #777777;
+  border-color: #00ab6c;
 }
 
 .email .actionBgPane {

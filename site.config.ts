@@ -15,14 +15,15 @@ export default siteConfig({
 
   // open graph metadata (optional)
   // description: 'Example Next.js Notion Starter Kit Site',
-  description: 'Bilal Naseems site',
+  description: 'Bilal Naseem',
 
   // social usernames (optional)
-  twitter: 'transitive_bs',
-  github: 'BilalNaseem1',
+  newsletter: 'https://file.notion.so/f/s/ae6bc7b1-b655-4043-8d7e-cc70d18ecd34/BilalNaseemCV.pdf?id=3c777ff6-762d-4a68-8aa3-f31cf60a4897&table=block&spaceId=5e0565a2-bb95-4b65-8f25-e0dafd57af69&expirationTimestamp=1691157600000&signature=Gd6Ga9H2TmphyzfrjvlwwwnnyP1ulGwHpTscnqhlO18', // resume optional newsletter URL
   linkedin: 'bilalnaseem96',
+  github: 'BilalNaseem1',
+  twitter: 'transitive_bs', //Medium
   // mastodon: '#', // optional mastodon profile URL, provides link verification
-  // newsletter: '#', // optional newsletter URL
+
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
 
   // default notion icon and cover images for site-wide consistency (optional)
@@ -68,6 +69,10 @@ export default siteConfig({
     {
       title: 'Contact',
       pageId: '58c29615deaa4f6e8ea9f2f81edaa8f3'
+    },
+    {
+      title: 'Medium Articles',
+      pageId: '2583ac6448774ab2bfd4fc100ba5bab4'
     },
     {
       title: 'Notes',

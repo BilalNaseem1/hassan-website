@@ -17,7 +17,7 @@ import * as types from '@/lib/types'
 import { mapImageUrl } from '@/lib/map-image-url'
 import { getCanonicalPageUrl, mapPageUrl } from '@/lib/map-page-url'
 import { searchNotion } from '@/lib/search-notion'
-import { useDarkMode } from '@/lib/use-dark-mode'
+// import { useDarkMode } from '@/lib/use-dark-mode'    commented out to always use dark mode
 
 import { Footer } from './Footer'
 import { GitHubShareButton } from './GitHubShareButton'
@@ -141,6 +141,25 @@ const propertyTextValue = (
 
   return defaultFn()
 }
+
+//////////////////////////////////////////////////////////////////////////
+// ALWAYS USE DARK MODE CODE FROM CHATGPT
+import { useState } from 'react';
+
+const useDarkMode = () => {
+  const [isDarkMode, setIsDarkMode] = useState(true); // Set to true to enable dark mode always
+
+  // Remove the toggle functionality if you want dark mode always enabled
+  const toggleDarkMode = () => {
+    // Empty function or do nothing
+  };
+
+  return { isDarkMode, toggleDarkMode };
+};
+
+export default useDarkMode;
+///////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////
 
 export const NotionPage: React.FC<types.PageProps> = ({
   site,
