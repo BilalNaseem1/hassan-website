@@ -85,7 +85,7 @@
 
 .notion-collection-card-cover img {
   border-radius: 16px;
-  width: 250px; 
+  
 }
 
 .notion-collection-card {
@@ -109,7 +109,7 @@
 
 .notion-collection-card-body {
   padding: 10px;
-  width: 250px;
+  
 }
 
 /* only target safari */

@@ -21,7 +21,7 @@ export default siteConfig({
   newsletter: 'https://file.notion.so/f/s/ae6bc7b1-b655-4043-8d7e-cc70d18ecd34/BilalNaseemCV.pdf?id=3c777ff6-762d-4a68-8aa3-f31cf60a4897&table=block&spaceId=5e0565a2-bb95-4b65-8f25-e0dafd57af69&expirationTimestamp=1691157600000&signature=Gd6Ga9H2TmphyzfrjvlwwwnnyP1ulGwHpTscnqhlO18', // resume optional newsletter URL
   linkedin: 'bilalnaseem96',
   github: 'BilalNaseem1',
-  twitter: 'transitive_bs', //Medium
+  twitter: 'bilalnaseem', //Medium
   // mastodon: '#', // optional mastodon profile URL, provides link verification
 
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
