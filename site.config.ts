@@ -2,7 +2,7 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: '550db9400dcb4ae6b6cf480097a046c4',
+  rootNotionPageId: '58702d7d1b154f6282095766804b4793',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
@@ -11,17 +11,17 @@ export default siteConfig({
   // basic site info (required)
   name: 'Next.js Notion Starter Kit',
   domain: 'https://efficacious-raptor-ff2.notion.site/Sample-Website-550db9400dcb4ae6b6cf480097a046c4?pvs=4',
-  author: 'Bilal Naseem',
+  author: 'Hassan Siddiqui',
 
   // open graph metadata (optional)
   // description: 'Example Next.js Notion Starter Kit Site',
-  description: 'Bilal Naseem',
+  description: 'Hassan Siddiqui',
 
   // social usernames (optional)
-  newsletter: 'https://file.notion.so/f/s/ae6bc7b1-b655-4043-8d7e-cc70d18ecd34/BilalNaseemCV.pdf?id=3c777ff6-762d-4a68-8aa3-f31cf60a4897&table=block&spaceId=5e0565a2-bb95-4b65-8f25-e0dafd57af69&expirationTimestamp=1691157600000&signature=Gd6Ga9H2TmphyzfrjvlwwwnnyP1ulGwHpTscnqhlO18', // resume optional newsletter URL
-  linkedin: 'bilalnaseem96',
-  github: 'BilalNaseem1',
-  twitter: 'bilalnaseem', //Medium
+  // newsletter: 'https://file.notion.so/f/s/ae6bc7b1-b655-4043-8d7e-cc70d18ecd34/BilalNaseemCV.pdf?id=3c777ff6-762d-4a68-8aa3-f31cf60a4897&table=block&spaceId=5e0565a2-bb95-4b65-8f25-e0dafd57af69&expirationTimestamp=1691157600000&signature=Gd6Ga9H2TmphyzfrjvlwwwnnyP1ulGwHpTscnqhlO18', // resume optional newsletter URL
+  linkedin: 'hassan-siddiiqui',
+  // github: 'BilalNaseem1',
+  // twitter: 'bilalnaseem', //Medium
   // mastodon: '#', // optional mastodon profile URL, provides link verification
 
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
@@ -58,25 +58,25 @@ export default siteConfig({
   navigationStyle: 'custom',
   navigationLinks: [
     {
-      title: 'Projects',
-      pageId: '550db9400dcb4ae6b6cf480097a046c4'
+      title: 'Blog Posts',
+      pageId: '58702d7d1b154f6282095766804b4793'
     },
     
     {
       title: 'About',
-      pageId: '93d73bef73b344529678bc478e21c649'
+      pageId: 'ad3eccea4a9c4331a47e0168388b589e'
     },
     {
       title: 'Contact',
-      pageId: '58c29615deaa4f6e8ea9f2f81edaa8f3'
-    },
-    {
-      title: 'Medium Articles',
-      pageId: '2583ac6448774ab2bfd4fc100ba5bab4'
-    },
-    {
-      title: 'Notes',
-      pageId: '77ee989e28f3493e8e9ac43e17d1710a'
+      pageId: '7f8209fe0fcd4b58a045c9971b781085'
     }
+    // {
+    //   title: 'Medium Articles',
+    //   pageId: '2583ac6448774ab2bfd4fc100ba5bab4'
+    // },
+    // {
+    //   title: 'Notes',
+    //   pageId: '77ee989e28f3493e8e9ac43e17d1710a'
+    // }
   ]
 })
